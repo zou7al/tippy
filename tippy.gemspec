@@ -1,6 +1,4 @@
 # coding: utf-8
-require_relative "lib/tippy/version"
-
 Gem::Specification.new do |spec|
   spec.name = "tippy"
   spec.version = Tippy::VERSION
