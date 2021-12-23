@@ -1,4 +1,6 @@
 # coding: utf-8
+require "tippy/version"
+
 Gem::Specification.new do |spec|
   spec.name = "tippy"
   spec.version = Tippy::VERSION
@@ -22,5 +24,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "bundler", "~> 1.13"
   spec.add_dependency "rake", "~> 10.0"
-  spec.add_dependency "rspec", "~> 3.0"
+  spec.add_dependency "rspec", "~> 31.0"
 end
