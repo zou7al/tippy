@@ -23,7 +23,7 @@ Or install it yourself as:
 test_1 = Tippy::Builder.new(total: 100, gratuity: '23.5').generate      #123.5
 test_2 = Tippy::Builder.new(total: 100, gratuity: 'high').generate      #125.0
 test_3 = Tippy::Builder.new(total: 100, gratuity: 'LOW').generate       #115.0
-test_4 = Tippy::Builder.new(total: 100, gratuity: 20).generate  #120.0
+test_4 = Tippy::Builder.new(total: 100, gratuity: 20).generate          #120.0
 '''
 
 ## Development
